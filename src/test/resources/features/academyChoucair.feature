@@ -6,10 +6,10 @@
   Scenario: Search for a automation course
     Given than Nany wants to learn automation at the academy choucair
     | strUser   | strPassword   |
-    | TuUsuario | TuClave       |
+    | 1121044269 | Choucair2021*   |
     When he search for the course on the choucair academy platform
     | strCourse                 |
-    | Metodologia Bancolombia  |
+    | Foundation Express  |
     Then he finds the course called
     | strCourse                 |
-    | Metologia Bancolombia     |
+    | Foundation Express     |
